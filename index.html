@@ -1,0 +1,67 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Quick Note</title>
+
+
+  <style>
+  
+</style>
+  <script src="js`/jquery-1.8.2.min.js" type="text/javascript"> </script>
+  <script src="js/garlic.js" type="text/javascript"> </script>
+  <script src="js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="js/public.js" type="text/javascript"> </script>
+  <link rel="stylesheet" type="text/css" href="js/style.css">
+
+</head>
+
+<body>
+
+<script type="text/javascript">
+ $('#myModal').modal()
+</script>
+
+<a target="_blank" href="#" class="survey">Help</a>
+
+<div class="intro">
+
+  <p>Hello.</p>
+
+  <p>Note down things you need to remember.</p>
+
+  <p>When you return your text will still be here.</p>
+
+  <p class="gb">Goodbye.</p>
+
+</div>
+
+<form data-persist="garlic" method="POST">
+
+  <textarea id="main" style="display: none;"></textarea>
+
+</form>
+
+<a href="#myModal" role="button" class="logo" data-toggle="modal"></a>
+
+
+<!-- Modal -->
+<div id="myModal" class="modal hide fx="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+  <div class="modal-body">
+
+    <p>This a simple note tool.</p>
+
+    <p>I use it to help remember things you forget when browsing the web.</p>
+
+    <p>Hopefully you find it useful too.</p>
+
+    <p>— <a href="#">Dhaval</a></p>
+
+  </div>
+
+</div>
+
+</body>
+
